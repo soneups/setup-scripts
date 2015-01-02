@@ -11,6 +11,7 @@
 # to execute use ./installs.sh
 #
 # wget http://sone.net/installs.sh
+# this file - https://github.com/soneups/setup-scripts/raw/master/install.sh
 #
 # created in notepad on WintelPC so will need to (sed -i 's/\r//' filename)
 
