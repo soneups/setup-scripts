@@ -1,3 +1,4 @@
+# this file - https://github.com/soneups/setup-scripts/raw/master/SyncNTP.py
 #HT - http://stackoverflow.com/questions/5222951/easy-way-to-get-the-correct-time-in-python                                                 
 #https://pypi.python.org/pypi/ntplib/                                                                                                       
 import time                                                                                                                                 
