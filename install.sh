@@ -4,16 +4,13 @@
 #
 # Gary Sone 16-Sep-2013,  RaspberryPi initial configuration script.
 #
-# v1.0
-# Changelog, initial app array (git,screen,shellinabox) and two git-config lines.
+# v1.0 16-09-13 - initial app array (git,screen,shellinabox) and two git-config lines.
 #
-# remember to chmod +x installs.sh (sudo su)
-# to execute use ./installs.sh
+# remember to chmod +x installs.sh (sudo su) to execute use ./installs.sh
 #
-# wget http://sone.net/installs.sh
 # this file - https://github.com/soneups/setup-scripts/raw/master/install.sh
 #
-# created in notepad on WintelPC so will need to (sed -i 's/\r//' filename)
+# If this file is created/edited in notepad type apps on WintelPC you will need to (sed -i 's/\r//' filename) on your linux box.
 
 
 # create array of applications to be installed
@@ -23,6 +20,7 @@ apps=(
 git
 screen
 shellinabox
+pip-python
 
 )
 
@@ -37,3 +35,5 @@ done
 
 git config --global user.name ""
 git config --global user.email ...
+
+sudo pip install nptlib
