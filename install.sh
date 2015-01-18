@@ -20,7 +20,7 @@ apps=(
 git
 screen
 shellinabox
-pip-python
+python-pip
 
 )
 
