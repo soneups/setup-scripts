@@ -11,7 +11,7 @@
 # Description:       This service is used to manage piweather
 ### END INIT INFO
 #`date +\%H\:\%M`
-
+# this file - # https://github.com/soneups/setup-scripts/init.d/raw/master/piweather
 
 case "$1" in 
     start)
