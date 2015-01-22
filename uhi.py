@@ -4,6 +4,6 @@
 import os
 import socket
 hn = socket.gethostname()
-ip = os.popen('hostname -I').read()
-wai = os.popen('whoami').read()
+ip = os.popen('hostname -I').read().strip("\n")
+wai = os.popen('whoami').read().strip("\n")
 print str(wai)+', You are on host: '+str(hn)+ ' ip: '+str(ip)
