@@ -1,4 +1,5 @@
-#script to get the username, hostname and ip address
+# script to get the username, hostname and ip address
+# this file - https://raw.githubusercontent.com/soneups/setup-scripts/master/uhi.py
 
 import os
 import socket
