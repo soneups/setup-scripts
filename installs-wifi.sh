@@ -6,6 +6,8 @@
 #
 # see -- http://learn.adafruit.com/setting-up-a-raspberry-pi-as-a-wifi-access-point/install-software
 #
+# may need to disable power management in /etc/network/interfaces via 'wireless-power off'
+#
 # remember to chmod +x installs.sh (sudo su)
 # to execute use ./installs.sh
 #
