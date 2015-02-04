@@ -9,6 +9,7 @@
 # remember to chmod +x installs.sh (sudo su) to execute use ./installs.sh
 #
 # this file - https://github.com/soneups/setup-scripts/raw/master/install.sh
+# surl - enos.in/rpisetup
 #
 # If this file is created/edited in notepad type apps on WintelPC you will need to (sed -i 's/\r//' filename) on your linux box.
 
@@ -21,6 +22,7 @@ git
 screen
 shellinabox
 python-pip
+rdesktop
 
 )
 
@@ -36,4 +38,4 @@ done
 git config --global user.name ""
 git config --global user.email ...
 
-sudo pip install nptlib
+sudo pip install ntplib
