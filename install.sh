@@ -23,6 +23,7 @@ screen
 shellinabox
 python-pip
 rdesktop
+filezilla
 
 )
 
