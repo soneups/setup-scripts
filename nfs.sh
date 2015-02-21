@@ -1,8 +1,10 @@
-Enter file contents here#!/bin/bash -x
+#!/bin/bash -x
 # ht - http://www.raspbian.org/RaspbianFAQ#How_do_I_mount_directories_from_other_Linux.2FUnix.2FBSD_servers.3F__How_do_I_mount_an_NFS_share.3F
+# this file - enos.in/rpinfs
 #
 
-sudo aptitude install -y nfs-common portmap
+sudu apt-get update
+sudo apt-get install -y nfs-common portmap
 sudo service rpcbind start
 sudo service rpcbind status
 sudo update-rc.d rpcbind enable
