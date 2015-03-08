@@ -3,7 +3,7 @@
 # this file - enos.in/rpinfs
 #
 
-sudu apt-get update
+sudo apt-get update
 sudo apt-get install -y nfs-common portmap
 sudo service rpcbind start
 sudo service rpcbind status
