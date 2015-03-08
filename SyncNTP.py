@@ -4,6 +4,7 @@
 # added check to see if root
 import time                                                                                                                                 
 import os
+import sys
 
 # check and warn if not running with root permissions!
 if not 'SUDO_UID' in os.environ.keys():
