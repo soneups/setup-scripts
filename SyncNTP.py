@@ -2,6 +2,7 @@
 #HT - http://stackoverflow.com/questions/5222951/easy-way-to-get-the-correct-time-in-python                                                 
 #https://pypi.python.org/pypi/ntplib/                                                                                                       
 # added check to see if root
+# this file - http://enos.in/syncntp
 import time                                                                                                                                 
 import os
 import sys
