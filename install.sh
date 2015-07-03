@@ -40,3 +40,4 @@ git config --global user.name ""
 git config --global user.email ...
 
 sudo pip install ntplib
+sudo sed -i 's/#disable_overscan=1/disable_overscan=1/' /boot/config.txt
