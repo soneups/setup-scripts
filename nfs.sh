@@ -1,6 +1,7 @@
 #!/bin/bash -x
 # ht - http://www.raspbian.org/RaspbianFAQ#How_do_I_mount_directories_from_other_Linux.2FUnix.2FBSD_servers.3F__How_do_I_mount_an_NFS_share.3F
 # this file - enos.in/rpinfs
+# wget -O - enos.in/rpinfs --no-check-certificate | bash
 #
 
 sudo apt-get update
