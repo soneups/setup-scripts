@@ -10,6 +10,7 @@
 #
 # this file - https://github.com/soneups/setup-scripts/raw/master/install.sh
 # surl - enos.in/rpisetup
+# wget -O - enos.in/rpisetup --no-check-certificate | bash
 #
 # If this file is created/edited in notepad type apps on WintelPC you will need to (sed -i 's/\r//' filename) on your linux box.
 
@@ -24,6 +25,7 @@ shellinabox
 python-pip
 rdesktop
 filezilla
+iceweasel
 
 )
 
@@ -40,4 +42,7 @@ git config --global user.name ""
 git config --global user.email ...
 
 sudo pip install ntplib
-sudo sed -i 's/#disable_overscan=1/disable_overscan=1/' /boot/config.txt
+# sudo sed -i 's/#disable_overscan=1/disable_overscan=1/' /boot/config.txt
+# sudo apt-get remove wolfram*
+# sudo apt-get remove epiphany*
+# sudo apt-get remove sonic-pi
