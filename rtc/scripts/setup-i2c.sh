@@ -1,4 +1,5 @@
 #!/bin/bash -v
+#setp instructions for a Mini RTC - http://thepihut.com/products/mini-rtc-module-for-raspberry-pi
 #sudo apt-get update
 #sudo apt-get install python-smbus i2c-tools
 ##/etc/modules
