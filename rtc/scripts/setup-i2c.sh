@@ -17,7 +17,7 @@
 ##read/show the hwclock date/time
 #sudo hwclock -r
 #sudo apt-get update && sudo apt-get install python-pip && sudo pip install ntplib
-#wget ...my ntpsyncscript here!...
+#wget https://raw.githubusercontent.com/soneups/setup-scripts/master/rtc/scripts/syncntp.py
 #run syncntp.py
 ##write/set the hwclock date/time
 #sudo hwclock -w
