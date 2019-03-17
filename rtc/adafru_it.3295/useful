@@ -1,0 +1,3 @@
+dpkg-reconfigure tzdata
+
+https://github.com/soneups/setup-scripts.git
