@@ -1,3 +1,7 @@
+# this
+https://github.com/soneups/setup-scripts.git
+
 dpkg-reconfigure tzdata
 
-https://github.com/soneups/setup-scripts.git
+dpkg --configure -a
+apt-get -f install
