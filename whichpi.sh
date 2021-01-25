@@ -111,6 +111,41 @@ fi
 if [ "$REVCODE" = "a22082" ]; then
     PIMODEL="Raspberry Pi 3 Model B, 1 GB RAM"
 fi
+# adding missing models 
+if [ "$REVCODE" = "a020d3" ]; then
+    PIMODEL="Raspberry Pi 3 Model B+, 1GB RAM rev 1.3"
+fi
 
+if [ "$REVCODE" = "a03111" ]; then
+    PIMODEL="Raspberry Pi 4, 1GB RAM rev 1.1"
+fi
+
+if [ "$REVCODE" = "b03111" ]; then
+    PIMODEL="Raspberry Pi 4, 2GB RAM rev 1.1"
+fi
+
+if [ "$REVCODE" = "b03112" ]; then
+    PIMODEL="Raspberry Pi 4, 2GB RAM rev 1.2"
+fi
+
+if [ "$REVCODE" = "c03111" ]; then
+    PIMODEL="Raspberry Pi 4, 4GB RAM rev 1.1"
+fi
+
+if [ "$REVCODE" = "c03112" ]; then
+    PIMODEL="Raspberry Pi 4, 4GB RAM rev 1.2"
+fi
+
+if [ "$REVCODE" = "c03114" ]; then
+    PIMODEL="Raspberry Pi 4, 4GB RAM rev 1.4"
+fi
+
+if [ "$REVCODE" = "d03114" ]; then
+    PIMODEL="Raspberry Pi 4, 8GB RAM rev 1.4"
+fi
+
+if [ "$REVCODE" = "c03130" ]; then
+    PIMODEL="Raspberry Pi 400, 4GB RAM rev 1.0"
+fi
 echo "$PIMODEL ($REVCODE)"
-echo "Potential newer model found - see https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md"
+#echo "Potential newer model found - see https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md"
